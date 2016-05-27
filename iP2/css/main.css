@@ -1,0 +1,27 @@
+
+li{
+    Display: block;
+}
+
+.badge{
+    background-color: #fff;
+    margin-top:-5px;
+}
+
+.showList{
+    display:block;
+}
+
+.hideList{
+    display:none;
+
+}
+
+.btn{
+    padding:0 5px;
+}
+
+.productList{
+    background-color: ghostwhite;
+
+}
