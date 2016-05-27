@@ -270,7 +270,7 @@
       <updated>1464327591072</updated>
       <workItem from="1464327592324" duration="101000" />
       <workItem from="1464328254626" duration="367000" />
-      <workItem from="1464356935462" duration="2838000" />
+      <workItem from="1464356935462" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="delete readme">
       <created>1464328288115</created>
@@ -286,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464359845655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete readme">
+      <created>1464360015858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464360015858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3306000" />
+    <option name="totallyTimeSpent" value="3313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="23" width="1024" height="1064" extended-state="0" />
