@@ -55,3 +55,10 @@ header h1{
 .media-body strong{
     color:black;
 }
+
+div > img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+}
