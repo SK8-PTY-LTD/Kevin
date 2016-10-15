@@ -31,7 +31,6 @@ var buildStyles = function() {
 
   var injectFiles = gulp.src([
     path.join(conf.paths.src, '/app/**/*.less'),
-    path.join(conf.paths.src, '/app/**/*.css'),
     path.join('!' + conf.paths.src, '/app/index.less')
   ], { read: false });
 
