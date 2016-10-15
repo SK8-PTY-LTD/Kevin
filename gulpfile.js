@@ -8,7 +8,8 @@
 
 var fs = require('fs');
 var gulp = require('gulp');
-
+var ghPages = require('gulp-gh-pages');
+var appGitURL = "https://github.com/kevinsuzc/kevin.git";
 /**
  *  This will load all js or coffee files in the gulp directory
  *  in order to load all gulp tasks
@@ -26,4 +27,17 @@ fs.readdirSync('./gulp').filter(function(file) {
  */
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
+});
+
+/**
+ * Deploy for github pages
+ */
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages(
+      {
+        remoteUrl: appGitURL
+      }
+    ));
 });
